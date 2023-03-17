@@ -11,6 +11,7 @@ In this tutorial, we observe Group Policy Management in Server Manager and explo
 - Remote Desktop
 - Server Manager
 - Group Policy Management
+- Command Prompt
 
 <h2>Operating Systems Used </h2>
 
@@ -21,6 +22,7 @@ In this tutorial, we observe Group Policy Management in Server Manager and explo
 - Step 1: Login remotely to Windows Server
 - Step 2: Open Group Policy Management in Server Manager
 - Step 3: Enable Group Policies
+- Step 4: Review Changes in Command Prompt
 
 <h2>Actions and Observations</h2>
 
@@ -61,6 +63,22 @@ In this demonstration, we can toggle under "Computer Configuration" to "Policies
 <img src="https://imgur.com/BliPLK1.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Under Password policies, it has various polices that can be created such as length, age, or complexity of a password. In this example, we can edit the length of characters for a password by setting the password to have a minimum of 8 characters.
+Under Password policies for computer configuration, it has various polices that can be created such as length, age, or complexity of a password. In this example, we can edit the length of characters for a password by setting the password to have a minimum of 8 characters.
+</p>
+<br />
+<h2>Edit User Configuration Desktop Policy Continued</h2>
+<p>
+<img src="https://imgur.com/IhQcHCr.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Under Desktop policies under User Configuration, we can control the features that are added to the user's desktop. For instance, we can make the decision to Remove the Recycle Bin item from the user's desktop. Group Policy allows the system administrator control various features for computers and users, based on the requirements of the company.
+</p>
+<br />
+<h2>Review Group Policy Changes in Command Prompt</h2>
+<p>
+<img src="https://imgur.com/h8eFzcS.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Under Command Prompt, we can review the changes that were made in Group Policy. Open Command Prompt as and administrator --> Enter "gpresult /r". This can be super helpful in notcing the changes that were previously made by the admin team.
 </p>
 <br />

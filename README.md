@@ -26,7 +26,7 @@ In this tutorial, we observe Group Policy Management in Server Manager and explo
 
 <h2>Login Remotely to Windows Server</h2>
 <p>
-<img src="https://imgur.com/bgRhNG6.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/bgRhNG6.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Assuming that we have already created a virtual machine running on Windows Server and logged in to remote desktop, open Server Manager on the virtual machine. Click on "Tools" and "Group Policy Management." This role houses various policies that manage both Windows and User configurations.
@@ -34,7 +34,7 @@ Assuming that we have already created a virtual machine running on Windows Serve
 <br />
 <h2>Create a Group Policy Object (GPO)</h2>
 <p>
-<img src="https://imgur.com/Y1pNm05.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/Y1pNm05.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next, right-click on your "Created Domain" and select "Create a GPO". Next, you can name the file to anything that you prefer. For this demostration, we will name it "Custom Setting". GPO is a file to configure users and how to use their computer.
@@ -42,17 +42,25 @@ Next, right-click on your "Created Domain" and select "Create a GPO". Next, you 
 <br />
 <h2>Edit Group Policy Object (GPO)</h2>
 <p>
-<img src="https://imgur.com/fYTqfGc.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/fYTqfGc.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After creating the GPO, we can begin to edit the various features for both computers and user. Right-click on the GPO that was previously created and click on "Edit". Next, you will see in the righ hand corner for "Computer Configuration" and "User Configuration". Under each, we can see that they are policy and preference folders that system administrators can use to customize computer or user settings.
 </p>
 <br />
-<h2>Edit Computer Configuration Policy</h2>
+<h2>Edit Computer Configuration Password Policy</h2>
 <p>
-<img src="https://imgur.com/KL9FKD3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/KL9FKD3.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 In this demonstration, we can toggle under "Computer Configuration" to "Policies" --> "Windows Settings" --> "Security Settings" --> "Account Settings" --> "Password Policy".
+</p>
+<br />
+<h2>Edit Computer Configuration Password Policy Continued</h2>
+<p>
+<img src="https://imgur.com/BliPLK1.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Under Password policies, it has various polices that can be created such as length, age, or complexity of a password. In this example, we can edit the length of characters for a password by setting the password to have a minimum of 8 characters.
 </p>
 <br />

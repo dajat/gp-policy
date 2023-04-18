@@ -3,7 +3,7 @@
 </p>
 
 <h1>Group Policy Management</h1>
-In this tutorial, we observe Group Policy Management in Server Manager and explore a couple of features. Group Policy allows the system adminstrator to configure policies to manage users and their envrionments. <br />
+In this tutorial, we observe Group Policy Management in Server Manager and explore a couple of features. Group Policy allows configuration to policies and to manage users and their envrionments. <br />
 
 <h2>Environments and Technologies Used</h2>
 

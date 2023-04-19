@@ -79,6 +79,6 @@ Under Desktop policies under User Configuration, we can control the features tha
 <img src="https://imgur.com/h8eFzcS.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Under Command Prompt, we can review the changes that were made in Group Policy. Open Command Prompt as and administrator --> Enter "gpresult /r". This can be super helpful in notcing the changes that were previously made by the admin team.
+Under Command Prompt, we can review the changes that were made in Group Policy. Open Command Prompt as and administrator --> Enter "gpresult /r". This can be super helpful in noticing recent changes.
 </p>
 <br />

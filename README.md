@@ -47,7 +47,7 @@ Next, right-click on your "Created Domain" and select "Create a GPO". Next, you 
 <img src="https://imgur.com/fYTqfGc.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After creating the GPO, we can begin to edit the various features for both computers and users. Right-click on the GPO that was previously created and click on "Edit". Next, you will see on the left pane, "Computer Configuration" and "User Configuration". Under each, we can see that they are policy and preference folders that system administrators can use to customize computer or user settings.
+After creating the GPO, we can begin to edit the various features for both computers and users. Right-click on the GPO that was previously created and click on "Edit". Next, you will see on the left pane, "Computer Configuration" and "User Configuration". Under each, we can see that there are policy and preference folders that system administrators can use to customize computer or user settings.
 </p>
 <br />
 <h2>Edit Computer Configuration Password Policy</h2>
